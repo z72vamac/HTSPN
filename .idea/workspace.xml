@@ -5,26 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be595d1b-55b0-43d9-8496-5156de0ff357" name="Changes" comment="Nuevo lavado de cara al HTSPN.">
-      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/instancias_tsplib/a280.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/instancias_tsplib/instances.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Untitled.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Untitled.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/estimacion_M.py" beforeDir="false" afterPath="$PROJECT_DIR$/estimacion_M.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/generador.py" beforeDir="false" afterPath="$PROJECT_DIR$/generador.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infeasible_constraints.ilp" beforeDir="false" afterPath="$PROJECT_DIR$/infeasible_constraints.ilp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/bolas25-0.csv" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/bolas25-0.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/bolas25-1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/bolas25-1.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/bolas25-2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/bolas25-2.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/bolas25-3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/bolas25-3.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/bolas25-4.csv" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/bolas25-4.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/segmentos25-0.csv" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/segmentos25-0.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/segmentos25-1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/segmentos25-1.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/segmentos25-2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/segmentos25-2.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/segmentos25-3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/segmentos25-3.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instancias/segmentos25-4.csv" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/segmentos25-4.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tspn_b.py" beforeDir="false" afterPath="$PROJECT_DIR$/tspn_b.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routine_segments.py" beforeDir="false" afterPath="$PROJECT_DIR$/routine_segments.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,14 +58,35 @@
       <recent name="C:\Users\Justo Puerto\UNIVERSIDAD DE SEVILLA\Grupo de Trabajo de Justo - General\Routes_Barriers" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.generador">
+    <configuration name="generador" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Justo Puerto\AppData\Local\Programs\Python\Python38\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/generador.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\Justo Puerto\AppData\Local\Programs\Python\Python38\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -120,6 +124,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.generador" />
         <item itemvalue="Python.parser" />
         <item itemvalue="Python.main" />
       </list>
@@ -169,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668429437447</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Nuevo lavado de cara al HTSPN.">
+      <created>1668704467310</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668704467310</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

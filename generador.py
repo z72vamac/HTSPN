@@ -91,7 +91,7 @@ def generador(nP, index):
     V = np.random.uniform(0, 100, (nP, 2))
         
     barreras = [[[0, 0], [100, 0]], [[100, 0], [100, 100]], [[100, 100], [0, 100]], [[0, 100], [0, 0]]]
-    
+
     r_init = 10
     
     for i in range(10):
@@ -152,7 +152,9 @@ def generador(nP, index):
 
 # np.random.seed(10)
 #
-# for nP in range(5, 101, 5):
+# lista = [5, 10, 20, 30, 50, 80, 100]
+#
+# for nP in lista:
 #     for index in range(10):
 #         generador(nP, index)
 

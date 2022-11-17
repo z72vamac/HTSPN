@@ -31,7 +31,7 @@ counter = 1
 for nP in [5, 10, 20, 30, 50, 80, 100]:
     for a4 in A4s:
         for prepro in prepros:
-            for instance in range(10):
+            for instance in range(5):
                 if counter > num_rows:
                     print('\n\nResolviendo la instancia ' + str(instance) + ' con un numero ' + str(nP) + ' de neighborhoods.\n\n')
 
