@@ -72,7 +72,7 @@ N = [neigh.Circle(center = [centro1, centro2], radii = radio) for centro1, centr
 
 # resultados = HTSPS_ven(barriers, N, picture=True)
 # resultados = HTSPS_without_prepro(barriers, N, log = False, timeLimit = 7200, init = False)
-resultados = tspn_b(barriers, N, A4 = True, dominant=False, prepro=True, log=False, picture=True, time_limit=600, init = False)
+resultados = tspn_b(barriers, N, A4 = True, dominant=False, prepro=False, log=False, picture=True, time_limit=600, init = False)
 
 
 # print(resultados)

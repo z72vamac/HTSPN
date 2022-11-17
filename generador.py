@@ -150,11 +150,11 @@ def generador(nP, index):
     
     # ax.set_aspect('equal')
 
-np.random.seed(10)
-
-for nP in range(5, 101, 5):
-    for index in range(10):
-        generador(nP, index)
+# np.random.seed(10)
+#
+# for nP in range(5, 101, 5):
+#     for index in range(10):
+#         generador(nP, index)
 
 
 # plt.show()

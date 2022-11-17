@@ -5,7 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be595d1b-55b0-43d9-8496-5156de0ff357" name="Changes" comment="Nuevo lavado de cara al HTSPN.">
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instancias_tsplib/a280.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instancias_tsplib/instances.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Untitled.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Untitled.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/estimacion_M.py" beforeDir="false" afterPath="$PROJECT_DIR$/estimacion_M.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generador.py" beforeDir="false" afterPath="$PROJECT_DIR$/generador.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infeasible_constraints.ilp" beforeDir="false" afterPath="$PROJECT_DIR$/infeasible_constraints.ilp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instancias/bolas25-0.csv" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/bolas25-0.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instancias/bolas25-1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/bolas25-1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instancias/bolas25-2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/bolas25-2.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instancias/bolas25-3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/bolas25-3.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instancias/bolas25-4.csv" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/bolas25-4.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instancias/segmentos25-0.csv" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/segmentos25-0.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instancias/segmentos25-1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/segmentos25-1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instancias/segmentos25-2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/segmentos25-2.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instancias/segmentos25-3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/segmentos25-3.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instancias/segmentos25-4.csv" beforeDir="false" afterPath="$PROJECT_DIR$/instancias/segmentos25-4.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tspn_b.py" beforeDir="false" afterPath="$PROJECT_DIR$/tspn_b.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +65,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="ReaderModeSettings">
     <option name="showLigatures" value="true" />
@@ -58,7 +77,6 @@
   </component>
   <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="Routes_Barriers" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -66,9 +84,10 @@
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -78,40 +97,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mediador" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Routes_Barriers" />
+    <configuration name="parser" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/resultados" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/resultados/mediador.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="modificador" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Routes_Barriers" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\G731\AppData\Local\Programs\Python\Python39\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="SDK_HOME" value="C:\Users\Justo Puerto\AppData\Local\Programs\Python\Python38\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TSPLIB-python-parser-master" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modificador.py" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TSPLIB-python-parser-master/parser.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -120,84 +118,10 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="procesador" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Routes_Barriers" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/resultados" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/resultados/procesador.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="routine_circles" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Routes_Barriers" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Justo Puerto\UNIVERSIDAD DE SEVILLA\Grupo de Trabajo de Justo - General\Routes_Barriers\routine_circles.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="tspn_b" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Routes_Barriers" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tspn_b.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="Python.main" />
-      <item itemvalue="Python.mediador" />
-      <item itemvalue="Python.modificador" />
-      <item itemvalue="Python.procesador" />
-      <item itemvalue="Python.routine_circles" />
-      <item itemvalue="Python.tspn_b" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.mediador" />
-        <item itemvalue="Python.procesador" />
-        <item itemvalue="Python.modificador" />
-        <item itemvalue="Python.tspn_b" />
-        <item itemvalue="Python.routine_circles" />
+        <item itemvalue="Python.parser" />
+        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>

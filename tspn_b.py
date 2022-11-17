@@ -651,7 +651,7 @@ def tspn_b(barriers, neighborhoods, prepro=True, A4=True, dominant = False, log=
                          head_width=1, length_includes_head=True, color='black')
 
             # plt.axis([-5, 105, -5, 105])
-            plt.axis([0, 100, 0, 100])
+            # plt.axis([0, 100, 0, 100])
 
             ax.set_aspect('equal')
             plt.show()
